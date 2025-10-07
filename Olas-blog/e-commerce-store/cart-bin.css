@@ -1,0 +1,16 @@
+body{
+  padding: 0 auto;
+  margin: 0;
+  width: 100%;
+  background: rgb(136, 55, 55);
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+div{
+  
+}

@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter' sans-serif;
+  background: linear-gradient(to right, #c2e9fb,#a1c4fd);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thrill{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding: 20px;
+  background: transparent;
+  top: 0;
+}
+
+.thrill h1{
+  padding:0;
+  color: #4e54c8;
+  
+}
+
+
+.auth-container{
+  background: white;
+  width: 100%; 
+  max-width: 400px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px
+   rgba(0, 0, 0, 0.1);
+   position: relative;
+   overflow: hidden;
+}
+
+.form-box{
+  animation: fade 0.5s ease forwards;
+}
+
+.hidden{
+  display: none;
+}
+
+.form-container h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input{
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button{
+  padding: 12px;
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button :hover{
+  background-color: #373b9b;
+}
+
+p{
+  text-align: center;
+  font-size: 14px;
+}
+
+p a{
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
